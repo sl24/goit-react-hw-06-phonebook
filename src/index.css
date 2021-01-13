@@ -1,24 +1,20 @@
-html {
-  box-sizing: border-box;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+:root {
+  --bgColorContainer: #80e0fd;
+  --primaryTextColor: #3f3f3f;
+  --titleColor: #080808;
+  --boxShadow: 8px 8px 14px 0px rgba(0, 0, 0, 0.7);
+  --timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   line-height: 1.5;
-  color: #212121;
+  color: var(--primaryTextColor);
 }
 
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: auto;
 }
