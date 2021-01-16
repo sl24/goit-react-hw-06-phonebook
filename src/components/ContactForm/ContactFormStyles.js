@@ -43,4 +43,11 @@ const Button = styled.button`
   }
 `;
 
-export { Form, InputForm, Button };
+const LabelForm = styled.label`
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #e9967a;
+`;
+
+export { Form, InputForm, Button, LabelForm };

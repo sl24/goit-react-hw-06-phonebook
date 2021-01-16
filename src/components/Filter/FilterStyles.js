@@ -14,4 +14,13 @@ const FilterInput = styled.input`
   }
 `;
 
-export default FilterInput;
+const FilterLabel = styled.label`
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #fa8072;
+  font-size: 22px;
+  font-weight: bold;
+`;
+
+export { FilterInput, FilterLabel };
