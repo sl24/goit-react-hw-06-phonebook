@@ -1,7 +1,7 @@
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
-import LoaderContainer from './PreLoader.styles';
+import LoaderContainer from './PreLoaderStyles';
 
 const PreLoader = () => {
   return (
